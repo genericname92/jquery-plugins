@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- include source files here... -->
+  <script src="lib/jquery-2.1.1.js"></script>
+  <script src="lib/orderable.js"></script>
+</head>
+
+<body>
+  <div id="photo-container" class="orderable">
+    <img id="1" draggable="false" src="images/carpet.jpg" class="photo in-place">
+    <img id="2" draggable="false" src="images/cocked.jpg" class="photo in-place">
+    <img id="3" draggable="false" src="images/counter.jpg" class="photo in-place">
+    <img id="4" draggable="false" src="images/droopyear.jpg" class="photo in-place">
+    <img id="5" draggable="false" src="images/four.jpg" class="photo in-place">
+    <img id="6" draggable="false" src="images/snow.jpg" class="photo in-place">
+    <img id="7" draggable="false" src="images/hand.jpg" class="photo in-place">
+    <img id="8" draggable="false" src="images/yarn.jpg" class="photo in-place">
+    <img id="9" draggable="false" src="images/carpet.jpg" class="photo in-place">
+    <img id="10" draggable="false" src="images/cocked.jpg" class="photo in-place">
+    <img id="11" draggable="false" src="images/counter.jpg" class="photo in-place">
+    <img id="12" draggable="false" src="images/droopyear.jpg" class="photo in-place">
+  </div>
+
+  <script>
+    $(".orderable").orderable({ width: 200, height: 200});
+  </script>
+</body>
+</html>

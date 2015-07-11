@@ -1,0 +1,19 @@
+.tab-pane.transitioning {
+  display: block;
+}
+
+.tab-pane.active {
+  font-weight: bold;
+  opacity: 1;
+  display: block;
+}
+
+/* Transition properties need to be in a location that exists before and after
+the added/removed classes are applied, be careful of specificity of css styles
+more specific things will win out*/
+.tab-pane {
+  transition-property: opacity;
+  transition-duration: 500ms;
+  display: none;
+  opacity: 0;
+}

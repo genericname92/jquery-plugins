@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Cat Carousel </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="./carousel.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+      href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="./carousel.css">
+  </head>
+
+  <body>
+    <div class="carousel" data-items=".items">
+      <div class="items">
+        <img id="1" src="images/carpet.jpg" >
+        <img id="2" src="images/cocked.jpg" >
+        <img id="3" src="images/counter.jpg" >
+        <img id="4" src="images/droopyear.jpg" >
+        <img id="5" src="images/four.jpg" >
+        <img id="6" src="images/snow.jpg" >
+        <img id="7" src="images/hand.jpg" >
+        <img id="8" src="images/yarn.jpg" >
+        <img id="9" src="images/carpet.jpg" >
+        <img id="10" src="images/cocked.jpg" >
+        <img id="11" src="images/counter.jpg" >
+        <img id="12" src="images/droopyear.jpg" >
+      </div>
+
+      <a href="javascript:void(0)" class="slide-right">Prev</a>
+      <a href="javascript:void(0)" class="slide-left">Next</a>
+    </div>
+    <script>
+      $(function(){
+        $('.carousel').carousel();
+      })
+    </script>
+  </body>
+</html>

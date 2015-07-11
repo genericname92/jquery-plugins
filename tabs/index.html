@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cool Website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+    <script src="./tabs.js"></script>
+    <link href="./tabs.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <ul class="tabs" data-content-tabs="#content-tabs">
+      <li>
+        <a href = '#Cardigan'>Cardigan</a>
+      </li>
+      <li>
+        <a href = '#Boxer'>Boxer</a>
+      </li>
+      <li>
+        <a href = '#Shiitzu'>Shiitzu</a>
+      </li>
+      <div id="content-tabs">
+        <content class="tab-pane" id="Cardigan">
+          <p>The Cardigan is a long,
+            low dog with upright ears
+            and a fox brush tail.[6]
+            The old American Kennel Club
+            standard called it an "Alsatian
+            on short legs".[citation needed]
+            The Cardigan's tail is long
+            (unlike the Pembroke Welsh corgi,
+            whose tail may be long,[7] naturally
+            bobbed or docked[8]). Cardigans come
+            in a variety of colors including
+            any shade of red, sable, or brindle,
+            as well as black, with or without tan,
+            brindle or blue merle, with or without
+            tan or brindle points. Other unofficial
+            colors can occur, such as red merle, but
+            these colors are not considered acceptable per
+            the Cardigan standard. They usually have white
+            on the neck, chest, legs, muzzle, underneath,
+            tip of the tail and as a blaze on the head,
+            known as the "Irish pattern."[citation needed]
+            Other markings include ticking on the legs and muzzle,
+            smutty muzzles and monk's hoods, especially on sables
+            (a pattern of darker tipped hairs over a basic red coat
+            color.[citation needed]. An average Cardigan is around
+            10.5 to 13 inches (260 to 315 mm) tall at the withers
+            and weighs from 30 to 38 lb. (13.6 to 17.2 kg) for the
+            male and 25 to 34 lb. (11.3 to 15.4 kg) for the female.
+            [citation needed]</p>
+        </content>
+        <content class="tab-pane" id="Boxer">
+          <p>Boxers are so cool </p>
+        </content>
+        <content class="tab-pane" id="Shiitzu">
+          <p>This dog has a funny name </p>
+        </content>
+      </div>
+    </ul>
+  <script>
+    $(function() {
+      $('.tabs').tabs();
+    })
+</script>
+  </body>
+</html>

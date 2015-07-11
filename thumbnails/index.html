@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./thumbnails.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="./thumbnails.css">
+    <title>Thumbnails</title>
+  </head>
+  <body>
+    <div class="thumbnails" data-gutter-images=".gutter-images">
+      <div class="active">
+        <img/>
+      </div>
+      <div class="gutter">
+        <a class="nav left" href="javascript:void(0)">&lt;</a>
+        <div class="gutter-images group">
+          <img id="1" src="images/carpet.jpg" >
+          <img id="2" src="images/cocked.jpg" >
+          <img id="3" src="images/counter.jpg" >
+          <img id="4" src="images/droopyear.jpg" >
+          <img id="5" src="images/four.jpg" >
+          <img id="6" src="images/snow.jpg" >
+          <img id="7" src="images/hand.jpg" >
+          <img id="8" src="images/yarn.jpg" >
+          <img id="9" src="images/carpet.jpg" >
+          <img id="10" src="images/cocked.jpg" >
+          <img id="11" src="images/counter.jpg" >
+          <img id="12" src="images/droopyear.jpg" >        </div>
+        <a class="nav right" href="javascript:void(0)">&gt;</a>
+      </div>
+    </div>
+
+    <script>
+    $(function(){
+      $('.thumbnails').thumbnails();
+    })
+    </script>
+  </body>
+</html>
