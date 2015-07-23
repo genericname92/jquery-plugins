@@ -16,3 +16,7 @@ thumbnails: http://genericname92.github.io/thumbnails/
 drag and drop: http://genericname92.github.io/dragCats
 
   -Drag and rearrange images
+
+Zoomable: https://genericname92.github.io/zoomable
+
+  -Hover over different parts of the image to see a blown up version of that part of the image.
