@@ -23,12 +23,12 @@ $.Orderable.prototype.hold = function (event) {
   $target.mouseup(function(event){
     $(document).off("mousemove");
     order.reposition(event, $target);
-  })
+  });
 
 };
 
 $.Orderable.prototype.moveThing = function (event, $target) {
-  $target.css({top: event.pageY, left: event.pageX})
+  $target.css({top: event.pageY, left: event.pageX});
 };
 
 $.Orderable.prototype.makeAbsolute = function($el){
@@ -54,7 +54,7 @@ $.Orderable.prototype.reposition = function(event, $target){
   });
   $target.insertBefore(bestEl);
   $target.removeAttr('style');
-}
+};
 
 $.fn.orderable = function (options) {
   this.each(function () {
